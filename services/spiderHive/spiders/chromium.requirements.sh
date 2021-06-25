@@ -1,0 +1,1 @@
+cat chromium.requirements | while read n; do (sudo apt install $n -y); done

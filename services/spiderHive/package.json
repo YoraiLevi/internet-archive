@@ -1,0 +1,20 @@
+{
+  "name": "spiderHive",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "grpc": "^1.24.6",
+    "puppeteer-extra-plugin-stealth": "^2.7.5"
+  },
+  "dependencies": {
+    "common": "file:../common",
+    "headless-chrome-crawler": "file:headless-chrome-crawler"
+  }
+}
